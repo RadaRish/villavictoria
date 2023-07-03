@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-">
+        <li class="text">дорога</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1--1">
+        <li class="text">дорога 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2--2">
+        <li class="text">дорога 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3--3">
+        <li class="text">дорога 3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4--4">
+        <li class="text">дорога 4</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5---">
+        <li class="text">вход на территорию</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-">
+        <li class="text">территория</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-">
+        <li class="text">ресепшн</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8---">
+        <li class="text">вход в ресепшн</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9--1--105-110">
+        <li class="text">территория 1 вход 105, 110</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10-105">
+        <li class="text">105</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-105--">
+        <li class="text">105-доп м</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12-105-">
+        <li class="text">105-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13-110">
+        <li class="text">110</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14-110-1">
+        <li class="text">110-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15-110-2">
+        <li class="text">110-2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16-110--">
+        <li class="text">110-доп м</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17-110-">
+        <li class="text">110-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18----1">
+        <li class="text">вход в корпус 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19--101--102">
+        <li class="text">фойе 101 и 102</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20-101">
+        <li class="text">101</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21-101-1">
+        <li class="text">101-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22-101-2">
+        <li class="text">101-2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23-101-3">
+        <li class="text">101-3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24-101-">
+        <li class="text">101-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25-102">
+        <li class="text">102</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26-102-">
+        <li class="text">102-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27--101--201">
+        <li class="text">лестница 101 и 201</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28--201--202">
+        <li class="text">фойе 201 и 202</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29-201">
+        <li class="text">201</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30-201-1">
+        <li class="text">201-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31-201-2">
+        <li class="text">201-2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32-201-">
+        <li class="text">201-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-202">
+        <li class="text">202</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34-202-">
+        <li class="text">202-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35--203">
+        <li class="text">фойе 203</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36-203">
+        <li class="text">203</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37-203-1">
+        <li class="text">203-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38-203--">
+        <li class="text">203-доп м</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39-203-">
+        <li class="text">203-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40--301--201">
+        <li class="text">лестница 301 и 201</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41--301--302">
+        <li class="text">фойе 301 и 302</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42-301">
+        <li class="text">301</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43-301-1">
+        <li class="text">301-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="44-301--">
+        <li class="text">301-доп м</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="45-301-">
+        <li class="text">301-су</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="46-302">
+        <li class="text">302</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="47-302-1">
+        <li class="text">302-1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="48-302-">
+        <li class="text">302-су</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
